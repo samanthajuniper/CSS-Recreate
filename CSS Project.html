@@ -1,0 +1,545 @@
+<html>
+
+    <head>
+    
+        <title>Technology - BBC News</title>
+
+    
+        <style type="text/css">
+            
+
+            #topbar {
+                
+                width:1000px;
+                margin:0 auto;
+                height: 40px;
+                
+            }
+            
+            body {
+                
+                margin: 0;
+                padding: 0;
+                font-family:Helvetica, Arial, sans-serif;
+                 
+            }  
+            
+            #Logo {
+            
+                margin-top: 8px;    
+                float:left;
+                height:30px;
+                width:80px;
+                margin-right: 8px;
+            }
+            
+            .topbar-section {
+                
+                float:left;
+                border-left: 1px #CCCCCC solid; 
+                height: 100%;
+                
+                
+            }
+            
+            #signin-logo {
+                
+                width: 25px;
+                height: 25px;
+                margin: 11px 15px;
+                float:left;
+                
+            }
+            
+            #signin-text {
+                
+                font-weight: bold; 
+                font-size:85%;
+                position:relative; 
+                top:15px;
+                padding-right: 30px;
+                float: left;
+            }
+            
+            .top-headers {
+                
+                
+                padding: 13px 15px 0 15px;
+                font-weight:bold;
+                font-size: 85%;
+                height: 27px;
+                
+                
+            }
+            
+            #pulldown {
+                
+                width: 10px;
+                height: 15px;
+                margin-left: 20px;
+                
+                
+            }
+            
+            #search {
+            
+                background-color:#E4E4E4;
+                border: none;
+                padding: 5px;
+                margin-left: 10px;
+                margin-top:9px;
+                width: 150px;
+                font-weight:bold;
+                font-size:14px;
+                float:left;
+                
+            }
+            
+            #search-glass {
+                
+                height:27px;
+                width: 35px;
+                margin-top: 9px;
+                
+            }
+            
+            
+            .clear {
+                
+                clear: both;
+                 
+            }
+            
+            #news-container {
+                    
+                background-color: #BB181A;
+                width:120%;
+                height:70px;
+                
+                
+            }
+        
+            #news-bar{
+            
+                width:1000px;
+                margin:0 ;
+            }
+        
+            
+            h1 {
+                
+                padding:0;
+                margin:0;
+                color: #FFFFFF;
+                font-size: 50px;
+                font-weight: normal;
+                padding-top: 20px;
+                float:left;
+                
+            }
+            
+            #bmenu-container{
+                
+                background-color: #A81717;
+                width:100%;
+                height:35px;
+                margin-top:-8px;
+                float:left;
+            
+                
+            }
+        
+            
+            .bmenu-section {
+              
+               
+                color: white;
+                text-decoration: none;
+                padding: 0 10px;
+                border-right: 1px solid #BB4545;
+                font-size:14px;
+                position: relative;
+                top: 10px;
+                float:left;
+               
+                
+            }
+            
+          
+            
+            #underline a:hover { border-bottom:3px solid #fff;}  
+            
+            #pd2 {
+                
+                height:15px;
+                top:15px;
+                padding-top:10px;
+              
+            }
+            
+            #noborder{
+                
+                border:none;
+                color: white;
+                text-decoration: none;
+                padding: 0 10px;
+                font-size:14px;
+                position: relative;
+                top: 10px;
+                float:left;
+            }
+            
+            #article-container {
+                
+               width:1000px;
+               margin: 0 auto;
+                
+            }
+            
+            #tech {
+                
+                position:absolute;
+                top: 200px;
+                left: 10px;
+                width: 80px;
+                font-size: 20px;
+                font-weight: normal;
+                margin-top: -35px;
+                padding-left: none;
+                
+            } 
+            
+        
+            h2 {
+                
+                border-bottom: 3px solid #A81717;
+                width: 116px;
+                margin-left: -80px;
+         
+            } 
+
+            
+            h3 a {
+                
+                color:black;
+                font-size: 30px;
+                text-decoration: none;
+                margin-left: -80px;
+      
+            }
+            
+            h3 a:hover {
+                
+                color: #1669A9;
+                 
+            }
+    
+            
+            #content {
+                
+                font-weight: normal;
+                margin-left: -80px;
+                float:left;
+            
+                
+            }
+            
+            .date{
+                
+                
+                padding-right:10px;
+                color: #5a5a5a;
+              
+                
+            }
+            
+            
+        
+            #dino { 
+
+                padding-left: 180px;
+                
+            }
+            
+            #clock {
+                
+                margin-top: -190px;
+                margin-left: -80px;
+                font-weight: normal;
+                position: relative;
+                float:left;
+      
+            }
+            
+            #date {
+                
+                margin-top: -190px;
+                margin-left: -60px;
+                font-weight: normal;
+                position: relative;
+                float:left;
+                color:black;
+                
+                
+            }
+            
+            #page-link a {
+                
+                color: #BB4545;
+                text-decoration: none;
+                font-weight:normal;
+                font-size: 15px;
+                border-left: 1px solid grey;
+                padding: 0 8px;
+                float:left;
+                margin-top: -191px;
+                margin-left: 59px;
+            }
+            
+            #page-link a:hover{
+                
+                color: #1669A9;
+            }
+           
+        </style>
+    
+    </head>
+
+    <body>
+        
+        <div id="topbar">
+        
+            <img src="BBC1.png" id="Logo"  class="top-headers">
+            
+            <div class="top-headers" class="topbar-section">
+                
+                <img src="signin.png"  id="signin-logo" >
+                
+                <span id="signin-text"> Sign in </span> 
+                
+            <div class="topbar-section top-headers">
+               
+                News
+               
+            </div>
+                
+            
+            <div class="topbar-section top-headers">
+                
+                Sport
+                
+            </div>
+            
+                
+            <div class="topbar-section top-headers">
+                
+                Weather
+                  
+            </div>
+                
+            <div class="topbar-section top-headers">
+                
+                Shop
+                
+            </div>
+                
+            <div class="topbar-section top-headers">
+                
+                Reel
+                
+            </div>
+                
+            <div class="topbar-section top-headers">
+                
+                Travel
+                
+                
+            </div>
+
+                
+             <div class="topbar-section top-headers">
+                
+                 More
+                 
+                    <img src="pulldown.png" id="pulldown" >
+                 
+             </div>
+           
+         
+             <div class="topbar-section">
+                
+                <input id=search type="text" value="Search">
+                
+                <input type="image" id="search-glass" src="search.png">
+                
+            </div>
+                
+        <div class="clear"></div>
+                
+        <div id="news-container">
+            
+            <div id="news-bar">
+
+                <h1>NEWS</h1>
+            
+            </div>
+            
+        <div class="clear"></div>
+            
+        <div id="bmenu-container">
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Home</a>
+            
+            </div>
+            
+              <div class="bmenu-section" id="underline" >
+            
+                <a> Video </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> World </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> US &#38; Canada</a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> UK </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Busniess </a>
+            
+            </div>
+       
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Tech </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Science </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Stories </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Science </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Entertainment &#38; Arts </a>
+            
+            </div>
+            
+            <div class="bmenu-section" id="underline" >
+            
+                <a> Health </a>
+            
+            </div>
+            
+            <div id="underline" >
+            
+                <a id="noborder"> More </a>
+                <img id="pd2" src="arrow-2.png">
+            
+            </div>
+            
+        
+          <div class="clear"></div>
+            
+          <div id="article-container">
+            
+            <div>
+        
+                <h2>Technology</h2>
+                
+                <h3><a href="">Under-5s apps have 'unfair deceptive ads'</a></h3>
+                
+              
+            
+            </div>
+              
+            <div id=content>
+              
+               Campaign groups and university <br> researchers raise concerns about the <br> ads found in Android app.
+              
+              
+            </div>
+              
+              
+            <div id=dino>
+            
+                  <img src="dino.png" style="width:450px;height:250px;">
+              
+            </div>
+              
+            <div id=clock class=date> 
+               
+                <img src="clock.png" style="width:18px;">
+                
+              
+                
+            </div>
+              
+            <div id=date> 
+                
+                October 30th 2018
+                
+            </div>
+        
+              
+             <div id=page-link><a href="https://www.bbc.com/news/technology"> Technology</a> </div>
+                  
+        
+             
+                
+                
+                
+      
+                
+                
+                
+         
+        
+    
+       
+       
+        
+        
+  
+        
+        
+    </body>
+    
+
+    
+
+
+
+
+
+
+</html>
